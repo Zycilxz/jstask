@@ -1,0 +1,29 @@
+.div {
+    width: 420px;
+    margin: auto;
+    height: 420px;
+    }
+.box {
+       margin: 10px;
+       padding: 10px;
+       width: 100px;
+       border: 0px solid;
+       background-color: #ffa600;
+       height: 100px;
+       border-radius: 16px;
+       float: left;
+    }
+button{
+    display: block;
+    width: 420px;
+    border:none;
+    border-radius: 5px;
+    height: 40px;
+    margin: 20px auto;
+}
+#open{
+    background-color: #00ff0099;
+}
+#stop{
+    background-color: #ff000099;
+}
