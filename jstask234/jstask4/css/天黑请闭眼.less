@@ -1,0 +1,147 @@
+@import "./通用.less";
+
+body{
+    background-color: rgb(41, 189, 224);
+    margin: 0;
+    min-width: 520px;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    span{
+        margin: auto;
+        line-height: 80px;
+        font-size: 30px;
+        color: #fff;
+    } 
+    .fh{
+        float: left;
+        margin: 20px;
+        width: 40px;
+        height: 40px;
+        
+    }
+    .gb{
+        float: right;
+        margin: 20px;
+        width: 40px;
+        height: 40px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.container{
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff88;
+    margin: 10px 0;
+    .fayan{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height: 40px;
+        margin-bottom: 50px;
+        font-size: 16px;
+        line-height: 40px;
+        .sjxb{
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+            margin-bottom: -20px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 20px solid #ffffff88;
+        }
+        .tishi{
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+            margin-bottom: -45px;
+            width: 400px;
+            height: 20px;
+            color: #fff;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}
+.wj{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 100px;
+    justify-content:space-around;
+    .hz{
+        position: relative;
+        width: 104px;
+        height: 164px;
+        padding-bottom: 60px;
+        border-top: 2px solid #fff;
+        .pingmin{
+            width: 100%;
+            height: 75px;
+            background-color: orange;
+            text-align: center;
+            font-size: 16px;
+            line-height: 75px;
+            border: none;
+            border-left: 2px solid #fff;
+            border-right: 2px solid #fff;
+        }
+        :nth-child(2){
+            border-left: 2px solid #fff;
+            border-right: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+            width: 100%;
+            height: 25px;
+            background-color: rgb(85, 105, 68);
+            text-align: center;
+            font-size: 16px;
+            line-height: 25px;
+        }
+        .dao{  
+            display: none;
+        }&:hover .dao {
+                display: block;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-bottom: 20px;
+                background-image: url(../img/菜刀.png);
+                background-position: center;
+                background-size: 40px;
+            }
+          
+    }
+
+}
+
+
+
+.footer{
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    height: 60px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 25px;
+    line-height: 60px;
+    background-color: orange;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
