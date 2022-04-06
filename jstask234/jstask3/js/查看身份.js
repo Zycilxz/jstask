@@ -57,7 +57,7 @@ $(document).ready(function () {
         ch.html("<strong>您的身份是：</strong>杀手<p><strong>您的词汇是：</strong>" + ssch + "</p>");
         var j = sessionStorage.getItem("i")
         var f = ch.css("display");
-        if (f === "none") {
+        if (f === "none" || zs < j) {
             op(j)
         } else {
             open(j)
